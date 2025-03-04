@@ -145,6 +145,6 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # อนุญาตให้ Frontend ที่รันบน localhost:3000 เข้าถึงได้
+    "http://localhost:3001",  # อนุญาตให้ Frontend ที่รันบน localhost:3000 เข้าถึงได้
 ]
 CORS_ALLOW_CREDENTIALS = True
