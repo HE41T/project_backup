@@ -1,9 +1,12 @@
 :root {
-    --primary-color: #4A90E2; /* ✅ สีหลัก (น้ำเงินอ่อน) */
-    --secondary-color: #E0E0E0; /* ✅ สีเทาอ่อน */
-    --background-color: #FFFFFF; /* ✅ พื้นหลังสีขาว */
-    --text-color: #333; /* ✅ ข้อความสีดำ */
+    --primary-color: #FFD369;
+    --secondary-color: #393E46;
+    --background-color: #222831;
+    --text-color: #EEEEEE;
+    --danger-color: #FF4D4D;
+    --border-radius: 0.75rem;
 }
+
 
 body {
     background-color: var(--background-color) !important;
@@ -17,6 +20,7 @@ body {
 
 /* ✅ กล่อง Register */
 .register-container {
+    margin-top: 30px;
     background-color: var(--secondary-color);
     padding: 25px;
     border-radius: 12px;

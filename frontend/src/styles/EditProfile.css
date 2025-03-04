@@ -1,23 +1,23 @@
 :root {
-    --primary-color: #4A90E2; /* ✅ สีหลัก (น้ำเงินอ่อน) */
-    --secondary-color: #E0E0E0; /* ✅ สีเทาอ่อน */
-    --background-color: #FFFFFF; /* ✅ พื้นหลังสีขาว */
-    --text-color: #333; /* ✅ ข้อความสีดำ */
+    --primary-color: #FFD369;
+    --secondary-color: #393E46;
+    --background-color: #222831;
+    --text-color: #EEEEEE;
+    --danger-color: #FF4D4D;
+    --border-radius: 0.75rem;
 }
+
 
 body {
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: auto;
-    margin: 0;
 }
 
 /* ✅ กล่อง Edit Profile */
 .edit-profile-container {
     background-color: var(--secondary-color);
+    margin-top: 3rem;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -71,7 +71,7 @@ h2 {
 }
 
 .btn-primary:hover {
-    background-color: #357ABD; /* ✅ น้ำเงินเข้มขึ้นเมื่อ hover */
+    background-color: #FFD369; /* ✅ น้ำเงินเข้มขึ้นเมื่อ hover */
 }
 
 /* ✅ รูปโปรไฟล์ */
@@ -80,13 +80,14 @@ h2 {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     border: 2px solid var(--primary-color);
 }
 
 .back-button {
     width: 100%;
-    background-color: #CCCCCC; /* ✅ สีเทาอ่อน */
+    background-color: #FFD369; /* ✅ สีเทาอ่อน */
     color: black;
     border: none;
     padding: 10px;
@@ -97,5 +98,9 @@ h2 {
 }
 
 .back-button:hover {
-    background-color: #BBBBBB;
+    background-color: #fdc74a;
+}
+
+.form-group{
+    margin-bottom: 1.5rem !important;
 }

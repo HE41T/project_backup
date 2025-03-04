@@ -139,8 +139,8 @@ const Home = () => {
                     {user && (
                         <>
                             <img src={user.profile_picture || 'https://via.placeholder.com/40'} alt="Profile" className="profile-picture" />
-                            <span className="user-name" >{user.first_name} {user.last_name}</span>
-                            <Link to={`/profile/${user.id}`} className="nav-button">Profile</Link>
+                            <span className="user-name" ><Link to={`/profile/${user.id}`} className="nav-button">{user.first_name} {user.last_name}</Link></span>
+                            
                             <Link to="/home" className="nav-button">Timeline</Link>
                             <Link to="/contact" className="nav-button">Contact</Link>
                         </>
